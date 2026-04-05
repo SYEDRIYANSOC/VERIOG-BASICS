@@ -1,0 +1,6 @@
+[2026-04-05 08:40:00 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+a|y
+01
+10
+testbench.sv:18: $finish called at 20 (1s)
+Done
