@@ -1,0 +1,14 @@
+
+module register(
+  input load,
+  input [3:0]d,
+  input clk,
+  output  [3:0]q
+);
+  
+  d_ff ff1(clk,load,d[0],q[0]);
+  d_ff ff2(clk,load,d[1],q[1]);
+  d_ff ff3(clk,load,d[2],q[2]);
+  d_ff ff4(clk,load,d[3],q[3]);
+endmodule
+  
